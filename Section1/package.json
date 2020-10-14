@@ -1,0 +1,20 @@
+{
+  "name": "Section1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "lite-server",
+    "build": "tsc",
+    "dev": "concurrently \"tsc -w app.ts\" \"nodemon app.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "lite-server": "^2.5.4",
+    "nodemon": "^2.0.5"
+  },
+  "dependencies": {}
+}

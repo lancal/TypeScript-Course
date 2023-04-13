@@ -1,9 +1,9 @@
-var button = document.querySelector('button');
-var input1 = document.getElementById('num1');
-var input2 = document.getElementById('num2');
+var buttonTmp = document.querySelector('button');
+var inputTmp1 = document.getElementById('num1');
+var inputTmp2 = document.getElementById('num2');
 function add(num1, num2) {
     return num1 + num2;
 }
-button.addEventListener('click', function () {
-    console.log(add(+input1.value, +input2.value));
+buttonTmp.addEventListener('click', function () {
+    console.log(add(+inputTmp1.value, +inputTmp2.value));
 });
